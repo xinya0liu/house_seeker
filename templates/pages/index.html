@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
 {%load humanize%}
+{% block title %}  {% endblock %}
 
+<!-- Alerts -->
+{% include 'partials/_alerts.html' %}
 <!-- Showcase -->
 <section id="showcase">
     <div class="container text-center">
@@ -65,6 +68,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Listings -->
 <section id="listings" class="py-5">
@@ -147,25 +151,25 @@
                 <i class="fas fa-comment fa-4x mr-4"></i>
                 <hr>
                 <h3>Consulting Services</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                    provident iste consequatur
-                    hic dignissimos ratione ea quae.</p>
+                <p>Our consulting services are designed to help you navigate complex challenges and achieve your goals effectively.
+                    Whether it's strategic planning, process optimization, or technical implementation, we provide tailored solutions
+                    that drive success. </p>
             </div>
             <div class="col-md-4">
                 <i class="fas fa-home fa-4x mr-4"></i>
                 <hr>
-                <h3>Propery Management</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                    provident iste consequatur
-                    hic dignissimos ratione ea quae.</p>
+                <h3>Property Management</h3>
+                <p>Our property management services ensure your investments are well-maintained and profitable. From tenant screening
+                    and rent collection to maintenance and legal compliance, we handle every aspect with professionalism and care. Let
+                    us help you maximize
             </div>
             <div class="col-md-4">
                 <i class="fas fa-suitcase fa-4x mr-4"></i>
                 <hr>
                 <h3>Renting & Selling</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae,
-                    provident iste consequatur
-                    hic dignissimos ratione ea quae.</p>
+                <p>Our renting and selling services are designed to streamline your property transactions. Whether you're searching for
+                    the perfect tenant or aiming to sell your property at the best market price, we provide expert guidance, marketing
+                    strategies, and seamless support to ensure a hassle-free experience.</p>
             </div>
         </div>
     </div>
