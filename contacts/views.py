@@ -21,9 +21,11 @@ def contacts(request):
         # Send mail
         send_mail(
             'Property Listing Inquiry',
-            'There has been an inquiry for '+listing+'. Sign into the admin panel for more info',
+            'There has been an inquiry for '+listing+'. \n Message: '+message+'',
             'susanna0liu@gmail.com',
-            [realtor_email,'514164773@qq.com'],
+            [
+                # realtor_email,
+                '514164773@qq.com'],
             fail_silently=False
             )
 
