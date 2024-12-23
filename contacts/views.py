@@ -25,7 +25,7 @@ def contacts(request):
             'susanna0liu@gmail.com',
             [
                 # realtor_email,
-                '514164773@qq.com'],
+                'susanna0liu@gmail.com'],
             fail_silently=False
             )
 
